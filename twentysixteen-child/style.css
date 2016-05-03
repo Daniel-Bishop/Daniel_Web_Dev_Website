@@ -1,0 +1,55 @@
+/*
+ Theme Name:   Daniel Web Development Website
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Sixteen Child Theme
+ Author:       Daniel Bishop
+ Author URI:   http://example.com
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+
+.top-links{
+	background-color:#42636e;
+	
+	text-align:right;
+}
+.inner-top p{
+	display:inline-block;
+	color:#fae5cf;
+	font-size:10px;
+	margin-right:50px;
+	font-family:Open Sans Light;
+}
+
+#masthead{
+	padding-top:0px;
+	padding-right:0px;
+	padding-left:0px ;
+}
+.site-header-main{
+	width:100%;
+	padding:0 5% 0 5%;
+	background-color: #f8f9f9;
+}
+.custom-logo{
+	max-width:100px;
+}
+.jssocials-shares{
+	text-align:right;
+}
+.jssocials-share{
+	color:gray;
+	opacity:90%;
+}
+
+/*Main Navigation*/
+
+.main-navigation a{
+	font-size:16px;
+	color:#aac3c3;
+	font-family:Open Sans;
+}
