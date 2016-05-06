@@ -11,6 +11,16 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-sixteen-child
 */
+body{
+	background-color: #ffffff;
+}
+#page{
+	margin-top:0px;
+}
+/*Remove bottom padding*/
+.site{
+	margin:0px;
+}
 
 .top-links{
 	background-color:#42636e;
@@ -29,6 +39,7 @@
 	padding-top:0px;
 	padding-right:0px;
 	padding-left:0px ;
+	padding-bottom:0px;
 }
 .site-header-main{
 	width:100%;
@@ -52,4 +63,136 @@
 	font-size:16px;
 	color:#aac3c3;
 	font-family:Open Sans;
+}
+
+/*Expand content to 100% width*/
+.content-area{
+	width:100%;
+	background-color:#f9fbfb;
+}
+.site-content{
+	padding:0px;
+}
+
+.the-pitch{
+	width:100%;
+	background-image:url('./images/section-bg2.jpg');
+	background-size: cover;
+	padding-top:50px;
+	max-height:436px;
+
+}
+#pitch-text{
+	font-family:serifa;
+	color:#f8f9f9;
+	text-align:center;
+	font-size:48px;
+	width:45%;
+	margin:0 auto;
+}
+
+.main-about-container{
+	font-family:open-sans;
+	font-weight:200;
+	color:#4e4f50;
+	margin-top:60px;
+}
+.firstWords{
+	font-size:30px;
+	color:#20284e;
+}
+.main-about-container p{
+	padding-bottom: 30px;
+	width:60%;
+	margin: 0 auto;
+}
+
+#final-pitch{
+	text-align:center;
+	width:70%;
+	padding-left:10%;
+	padding-right:10%;
+	margin:0 auto;
+	font-size:24px;
+	font-weight:400;
+}
+.Imac-and-yellow{
+	min-height:636px;
+	background-image: url('./images/mac.png'); 
+	background-size: cover;
+	background-repeat:no-repeat;
+	
+
+}
+.Imac-and-yellow p{
+	color: #233439;
+	font-size: 40px;
+	width:35%;
+	position:relative;
+	left:60%;
+	top:220px;
+	
+
+}
+
+
+/*Site Footer*/
+.site-footer{
+	max-height:436px;
+	background-image:url('./images/section-bg.jpg');
+	background-size: cover;
+	color:#f8f9f9;
+	
+}
+.site-footer h2{
+	text-align: center;
+	font-family:open-sans;
+	font-style: light;
+	font-weight:200;
+	color: #1ab2fe;
+	font-size:36px;
+	display:block;
+	width:100%;
+	margin-top:10px;
+}
+.site-footer h3{
+
+	width:100%;
+	text-align: center;
+	font-family:open-sans;
+	font-weight:200;
+	color: #1ab2fe;
+	
+
+
+
+}
+.social-links{
+	width:70%;
+	margin:0 auto;
+	margin-top:30px;
+	
+}
+.social-links img{
+	display:inline-block;
+	width:40px;
+	margin-right:20px;
+
+
+}
+.footer-col{
+	display:inline-block;
+	width:30%;
+	
+
+}
+.footer-col p{
+	
+}
+#footer-col-1{
+margin-right:;
+margin-left:25%;
+}
+#footer-col2{
+
 }
