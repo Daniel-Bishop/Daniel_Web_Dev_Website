@@ -23,6 +23,7 @@ body {
 
 .top-links {
   background-color: #42636e;
+  height: 30px;
   text-align: right; }
 
 .inner-top p {
@@ -44,7 +45,13 @@ body {
   background-color: #f8f9f9; }
 
 .custom-logo {
+  display: inline-block;
   max-width: 100px; }
+
+.home-header {
+  width: 0px;
+  height: 0px;
+  visibility: hidden; }
 
 .jssocials-shares {
   text-align: right; }
@@ -171,193 +178,105 @@ body {
 #footer-col-1 {
   margin-left: 5%; }
 
-/*
- Theme Name:   Daniel Web Development Website
- Theme URI:    http://example.com/twenty-fifteen-child/
- Description:  Twenty Sixteen Child Theme
- Author:       Daniel Bishop
- Author URI:   http://example.com
- Template:     twentysixteen
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twenty-sixteen-child
-*/
-@media screen and (min-width: 992px) {
-  body {
-    background-color: #ffffff; }
-
-  #page {
-    margin-top: 0px; }
-
-  /*Remove bottom padding*/
-  .site {
-    margin: 0px; }
-
-  .top-links {
-    background-color: #42636e;
-    text-align: right; }
-
+@media screen and (min-width: 481px) {
   .inner-top p {
-    display: inline-block;
-    color: #fae5cf;
-    font-size: 10px;
-    margin-right: 50px;
-    font-family: Open Sans Light; }
+    font-size: 14px; }
 
-  #masthead {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px; }
+  .custom-logo-link {
+    display: inline-block; }
 
-  .site-header-main {
-    width: 100%;
-    padding: 0 5% 0 5%;
-    background-color: #f8f9f9; }
-
-  .custom-logo {
-    max-width: 100px; }
-
-  .jssocials-shares {
-    text-align: right; }
-
-  .jssocials-share {
-    color: gray;
-    opacity: 90%; }
-
-  /*Main Navigation*/
-  .main-navigation a {
-    font-size: 16px;
-    color: #aac3c3;
-    font-family: Open Sans; }
-
-  /*Expand content to 100% width*/
-  .content-area {
-    width: 100%;
-    background-color: #f9fbfb; }
-
-  .site-content {
-    padding: 0px; }
-
-  .the-pitch {
-    width: 100%;
-    background-image: url("./images/section-bg2.jpg");
-    background-size: cover;
-    padding-top: 60px;
-    max-height: 436px;
-    padding-bottom: 60px; }
-
-  #pitch-text {
-    font-family: serifa;
-    color: #f8f9f9;
-    text-align: center;
-    font-size: 48pt;
-    font-size: 4vw;
-    width: 50%;
-    margin: 0 auto; }
-
-  .main-about-container {
-    font-family: open-sans;
-    font-weight: 200;
-    color: #4e4f50;
-    margin-top: 60px; }
+  .home-header {
+    width: auto;
+    height: auto;
+    visibility: visible;
+    position: relative;
+    display: inline-block; }
+    .home-header h1 {
+      text-align: right;
+      width: auto;
+      display: inline-block;
+      font-family: open-sans;
+      font-size: 2vw; }
+    .home-header h4 {
+      width: auto;
+      display: inline-block;
+      position: relative;
+      text-align: left;
+      font-size: 2.5vw;
+      margin-left: -4px; }
 
   .firstWords {
     font-size: 30px;
+    font-size: 4vw;
     color: #20284e; }
 
   .main-about-container p {
     padding-bottom: 30px;
     width: 60%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    font-size: 2vw; }
 
   #final-pitch {
-    text-align: center;
-    width: 70%;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin: 0 auto;
-    font-size: 24px;
-    font-weight: 400; }
-
-  .Imac-and-yellow {
-    min-height: 636px;
-    background-image: url("./images/mac.png");
-    background-size: contain;
-    background-repeat: no-repeat; }
-
-  .Imac-and-yellow p {
-    color: #233439;
-    font-size: 40px;
-    font-size: 3vw;
-    width: 35%;
-    position: relative;
-    left: 60%;
-    top: 2em; } }
-@media screen and (min-width: 992px) and (min-width: 992px) {
-  .Imac-and-yellow p {
-    font-size: 40px;
-    top: 220px; } }
-@media screen and (min-width: 992px) {
-  /*Site Footer*/
-  .site-footer {
-    max-height: 436px;
-    background-image: url("./images/section-bg.jpg");
-    background-size: cover;
-    color: #f8f9f9; }
-
-  .site-footer h2 {
-    text-align: center;
-    font-family: open-sans;
-    font-style: light;
-    font-weight: 200;
-    color: #1ab2fe;
-    font-size: 36px;
-    display: block;
-    width: 100%;
-    margin-top: 10px; }
-
-  .site-footer h3 {
-    width: 100%;
-    text-align: center;
-    font-family: open-sans;
-    font-weight: 200;
-    color: #1ab2fe; }
-
-  .social-links {
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 30px; }
-
-  .social-links img {
-    display: inline-block;
-    width: 40px;
-    margin-right: 20px; }
-
-  .footer-col {
-    display: inline-block;
-    width: 30%; }
-
-  #footer-col-1 {
-    margin-left: 25%; } }
-/*end media query*/
-@media screen and (min-width: 481px) {
-  .inner-top p {
-    font-size: 14px; }
+    font-size: 3vw; }
 
   .Imac-and-yellow {
     min-height: 336px;
     background-size: contain; }
 
   .Imac-and-yellow p {
-    top: 90px; } }
+    top: 110px; } }
 @media screen and (min-width: 707px) {
   .Imac-and-yellow {
     min-height: 436px; }
 
   .Imac-and-yellow p {
     top: 140px; } }
+@media screen and (min-width: 910px) {
+  .home-header {
+    position: relative;
+    top: 20px; }
+    .home-header h1 {
+      font-size: 20px; }
+    .home-header h4 {
+      display: block;
+      text-align: right;
+      margin-top: -10px;
+      font-size: 24px; }
+
+  .Imac-and-yellow {
+    height: 636px; }
+
+  .Imac-and-yellow p {
+    top: 140px; }
+
+  #pitch-text {
+    font-size: 43px; }
+
+  .firstWords {
+    font-size: 40px; }
+
+  .main-about-container p {
+    font-size: 24px; }
+
+  #final-pitch {
+    font-size: 30px; } }
+@media screen and (min-width: 992px) {
+  .Imac-and-yellow p {
+    font-size: 36px;
+    top: 180px; }
+
+  /*Site Footer*/
+  .site-footer h2 {
+    font-size: 54px; }
+
+  .site-footer h3 {
+    font-size: 28px; }
+
+  .social-links {
+    font-size: 20px; } }
+/*end media query*/
+@media screen and (min-width: 1120px) {
+  .Imac-and-yellow p {
+    top: 230px; } }
 
 /*# sourceMappingURL=style.css.map */

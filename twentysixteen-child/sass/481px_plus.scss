@@ -4,13 +4,61 @@
 		font-size:14px;
 	}
 
+.custom-logo-link{
+	display:inline-block;
+}
+.home-header {
+	width:auto;
+	height:auto;
+	visibility: visible;
+    position: relative;
+    
+    display:inline-block;
+    
+    h1{
+    	text-align: right;
+    	width:auto;
+    	display: inline-block;
+    	font-family: open-sans;
+    	font-size:2vw;
+    }
+    h4{
+    	width:auto;
+    	display: inline-block;
+    	position: relative;
+    	
+    	text-align:left;
+    	font-size: 2.5vw;
+    	margin-left:-4px;
+    }
+    
+}
+
+
+.firstWords{
+	font-size:30px;
+	font-size:4vw;
+	color:#20284e;
+}
+.main-about-container p{
+	padding-bottom: 30px;
+	width:60%;
+	margin: 0 auto;
+	font-size:2vw;
+}
+
+#final-pitch{
+	font-size:3vw;
+}
+
+
 .Imac-and-yellow{
 	min-height:336px;
 	background-size:contain;
 
 }
 .Imac-and-yellow p{
-	top:90px;
+	top:110px;
 }
 
 

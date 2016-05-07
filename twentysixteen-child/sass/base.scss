@@ -24,7 +24,7 @@ body{
 
 .top-links{
 	background-color:#42636e;
-	
+	height:30px;
 	text-align:right;
 }
 .inner-top p{
@@ -47,8 +47,15 @@ body{
 	background-color: #f8f9f9;
 }
 .custom-logo{
+	display:inline-block;
 	max-width:100px;
 }
+
+.home-header{
+	width:0px; height:0px;
+	visibility: hidden;
+}
+
 .jssocials-shares{
 	text-align:right;
 }
