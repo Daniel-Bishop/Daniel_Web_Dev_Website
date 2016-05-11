@@ -27,12 +27,16 @@ body{
 	height:30px;
 	text-align:right;
 }
+.inner-top{
+	padding-right:5%;
+}
 .inner-top p{
 	display:inline-block;
 	color:#fae5cf;
 	font-size:3vw;
 	margin-left:2vw;
-	font-family:Open Sans Light;
+	font-family:open-sans;
+	font-weight:200;
 }
 
 #masthead{
@@ -43,17 +47,27 @@ body{
 }
 .site-header-main{
 	width:100%;
-	padding:0 5% 0 5%;
+	padding:2% 5% 2% 5%;
 	background-color: #f8f9f9;
 }
 .custom-logo{
 	display:inline-block;
-	max-width:100px;
+	
+	width:15vw;
+	max-width:120px;
 }
 
 .home-header{
 	width:0px; height:0px;
 	visibility: hidden;
+	h1{
+		color:#51a2a2;
+		font-weight:200;
+	}
+	h4{
+		color:#516aa3;
+		font-weight:300;
+	}
 }
 
 .jssocials-shares{
@@ -68,8 +82,18 @@ body{
 
 .main-navigation a{
 	font-size:16px;
-	color:#aac3c3;
-	font-family:Open Sans;
+	color:#52a452;
+	font-family:open-sans;
+	font-weight:200;
+}
+.main-navigation{
+	.current-menu-item a{
+		font-weight:400;
+		color:#516aa3;
+	}
+}.site-header-menu{
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 /*Expand content to 100% width*/
@@ -106,6 +130,7 @@ body{
 	color:#4e4f50;
 	margin-top:60px;
 
+
 }
 .firstWords{
 	font-size:30px;
@@ -117,6 +142,7 @@ body{
 	width:60%;
 	margin: 0 auto;
 	font-size:3vw;
+	
 }
 
 #final-pitch{

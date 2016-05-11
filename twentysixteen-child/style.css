@@ -26,12 +26,16 @@ body {
   height: 30px;
   text-align: right; }
 
+.inner-top {
+  padding-right: 5%; }
+
 .inner-top p {
   display: inline-block;
   color: #fae5cf;
   font-size: 3vw;
   margin-left: 2vw;
-  font-family: Open Sans Light; }
+  font-family: open-sans;
+  font-weight: 200; }
 
 #masthead {
   padding-top: 0px;
@@ -41,17 +45,24 @@ body {
 
 .site-header-main {
   width: 100%;
-  padding: 0 5% 0 5%;
+  padding: 2% 5% 2% 5%;
   background-color: #f8f9f9; }
 
 .custom-logo {
   display: inline-block;
-  max-width: 100px; }
+  width: 15vw;
+  max-width: 120px; }
 
 .home-header {
   width: 0px;
   height: 0px;
   visibility: hidden; }
+  .home-header h1 {
+    color: #51a2a2;
+    font-weight: 200; }
+  .home-header h4 {
+    color: #516aa3;
+    font-weight: 300; }
 
 .jssocials-shares {
   text-align: right; }
@@ -63,8 +74,17 @@ body {
 /*Main Navigation*/
 .main-navigation a {
   font-size: 16px;
-  color: #aac3c3;
-  font-family: Open Sans; }
+  color: #52a452;
+  font-family: open-sans;
+  font-weight: 200; }
+
+.main-navigation .current-menu-item a {
+  font-weight: 400;
+  color: #516aa3; }
+
+.site-header-menu {
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 /*Expand content to 100% width*/
 .content-area {
@@ -243,6 +263,9 @@ body {
       margin-top: -10px;
       font-size: 24px; }
 
+  .site-header-main {
+    padding: 0 5% 10px 5%; }
+
   .Imac-and-yellow {
     height: 636px; }
 
@@ -256,9 +279,11 @@ body {
     font-size: 40px; }
 
   .main-about-container p {
-    font-size: 24px; }
+    font-size: 24px;
+    opacity: 0; }
 
   #final-pitch {
+    opacity: 1.0;
     font-size: 30px; } }
 @media screen and (min-width: 992px) {
   .Imac-and-yellow p {
@@ -273,7 +298,9 @@ body {
     font-size: 28px; }
 
   .social-links {
-    font-size: 20px; } }
+    font-size: 20px; }
+    .social-links img {
+      max-width: 50px; } }
 /*end media query*/
 @media screen and (min-width: 1120px) {
   .Imac-and-yellow p {
