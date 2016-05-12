@@ -104,6 +104,7 @@ body{
 .site-content{
 	padding:0px;
 }
+/**Home Page styles**/
 
 .the-pitch{
 	width:100%;
@@ -174,7 +175,91 @@ body{
 	
 
 }
+/**About Page styles**/
+.about-inner-main{
+	padding-top:5vw;
+	padding-left:6.5%;
+	font-size:4vw;
+	p{
+		font-family:open-sans;
+		font-weight:200;
+	}
+}
+.about-page-col1{
+	
+	margin:0;
+	vertical-align:top;
+	
+		.contact-icon{
+		width:35px;
+		vertical-align: middle;
+		margin-bottom: 0px;
+		}	
+		
+	margin:0px;
+	
+	h1{
+		font-family:open-sans;
+		color:#42636e;
+		font-weight:400;
+		margin-bottom:10%;
+	}
 
+
+
+	img{
+		width:200px;
+		margin-bottom: 40px;
+	}
+	 
+}
+.about-page-col2{
+
+	margin:0;
+	padding-top:16%;
+
+	h2{
+		font-family:open-sans;
+		color:#42636e;
+		font-weight:400;
+
+	}
+
+}
+
+/**Processes Page**/
+.page-title-custom{
+
+	font-family:open-sans;
+	font-weight:400;
+	color:#42636e;
+
+}
+.process-content-container{
+	width:90%;
+	margin:0 auto;
+	font-size:4vw;
+	font-family:open-sans;
+	font-weight:200;
+	padding-top:5vw;
+
+	h2{
+		display: inline-block;
+		width:70%;
+		font-weight:400;
+		color:#42636e;
+		vertical-align: middle;
+	}
+	img{
+		display: inline-block;
+		width: 10%;
+		max-width:35px;
+	}
+	#process-one{
+		margin-top:5%;
+	}
+
+}
 
 /*Site Footer*/
 .site-footer{

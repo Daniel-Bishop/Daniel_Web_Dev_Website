@@ -63,5 +63,75 @@
 
 
 
+/**About Page styles**/
+.about-inner-main{
+	padding-top:41px;
+	padding-left:6.5%;
+	font-size:16px;
+
+	p{
+		font-family:open-sans;
+		font-weight:200;
+	}
+}
+.about-page-col1{
+
+	margin:0;
+	
+	
+	vertical-align:top;
+	
+
+	h1{
+		font-family:open-sans;
+		color:#42636e;
+		
+		font-weight:400;
+		
+	}
+
+
+
+	img{
+		width:200px;
+	}
+	 
+}
+.about-page-col2{
+	margin:0;
+	
+	padding-top:69px;
+	
+
+	h2{
+		font-family:open-sans;
+		color:#42636e;
+		font-weight:400;
+		margin-bottom:6px;
+
+	}
+
+
 
 }
+/*Processes Page Styles*/
+.process-content-container{
+	padding-top:41px;
+	font-size:16px;
+	
+	p{	
+
+		margin-top:18px;
+		margin-bottom:36px;
+	}
+
+	.process-parts{
+		margin-left:6%;
+	}
+	#process-one{
+		margin-top:5%;
+	}
+
+}
+
+}/*End media query*/
