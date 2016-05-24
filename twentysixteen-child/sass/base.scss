@@ -52,7 +52,7 @@ body{
 }
 .custom-logo{
 	display:inline-block;
-	
+	width:120px;
 	width:15vw;
 	max-width:120px;
 }
@@ -109,6 +109,7 @@ body{
 .the-pitch{
 	width:100%;
 	background-image:url('./images/section-bg2.jpg');
+	background-size:100% 100%;
 	background-size: cover;
 	padding-top:60px;
 	max-height:436px;
@@ -119,7 +120,7 @@ body{
 	font-family:serifa;
 	color:#f8f9f9;
 	text-align:center;
-	font-size:48pt;
+	font-size:24px;
 	font-size:4vw;
 	width:50%;
 	margin:0 auto;
@@ -143,7 +144,7 @@ body{
 	width:60%;
 	margin: 0 auto;
 	font-size:3vw;
-	
+	opacity:1.0;
 }
 
 #final-pitch{
@@ -158,15 +159,16 @@ body{
 }
 .Imac-and-yellow{
 	min-height:200px;
-	background-image: url('./images/mac.png'); 
+	background-image: url('./images/mac.png');
+	background-size:100% 100%; 
 	background-size:cover;
 	background-repeat:no-repeat;
-	
+	max-height:250px;
 
 }
 .Imac-and-yellow p{
 	color: #233439;
-	font-size: 40px;
+	font-size:12px;
 	font-size:3vw;
 	width:35%;
 	position:relative;
@@ -183,6 +185,11 @@ body{
 	p{
 		font-family:open-sans;
 		font-weight:200;
+	}
+	h2{
+		font-family:open-sans;
+		color:#42636e;
+		font-weight:400;
 	}
 }
 .about-page-col1{
@@ -260,6 +267,33 @@ body{
 	}
 
 }
+/*Contact Page*/
+
+.about-inner-main{
+
+	.wpcf7{
+		
+		padding-top:40px;
+		width:70%;
+		margin:0 auto;
+
+	}
+
+
+}
+/*Portfolio Page*/
+.current-project{
+	margin-top:80px;
+	text-align: center;
+	h2{
+		text-align: left;
+		margin-bottom: 40px;
+	}
+	img{
+		width:70%;
+
+	}
+}
 
 /*Site Footer*/
 .site-footer{
@@ -267,6 +301,9 @@ body{
 	background-image:url('./images/section-bg.jpg');
 	background-size: cover;
 	color:#f8f9f9;
+	a{
+		color:#f8f9f9;
+	}
 	
 }
 .site-footer h2{
@@ -298,12 +335,18 @@ body{
 	width:70%;
 	margin:0 auto;
 	margin-top:30px;
+	font-size:8px;
 	font-size:2.5vw;
+	
 	
 }
 .social-links img{
 	display:inline-block;
+	width:15px;
+	height:50px;
 	width:2vw;
+	height:2vw;
+	margin-right:5px;
 	margin-right:2vw;
 
 

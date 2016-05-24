@@ -36,7 +36,7 @@
 			<div class="top-links">
 				<div class="inner-top">
 					<p>0409 092 450</p>
-					<p>danielgibson28@bigpond.com</p>
+					<p><?php echo bloginfo('admin_email'); ?></p>
 
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 
 					<div id="site-header-menu" class="site-header-menu">
 						<?php if ( has_nav_menu( 'primary' ) ) : ?>
-						<?php echo do_shortcode( '[sgmb id=2]');?>
+						<?php echo do_shortcode( '[sgmb id=1]');?>
 							<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
 								<?php
 									wp_nav_menu( array(

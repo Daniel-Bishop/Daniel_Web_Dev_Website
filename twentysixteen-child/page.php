@@ -18,7 +18,7 @@ get_header(); ?>
 		<div id="hero-image"><img src="<?php echo get_stylesheet_directory_uri();?>/images/ipad-cropped.jpg" alt="ipad-image"/></div>
 		<section id="pitch">
 			<div class="the-pitch">
-				<p id="pitch-text">Daniels web development will deliver higher ROI and build brand recognition</p>
+				<p id="pitch-text">Having a web presence will deliver higher ROI and build brand recognition</p>
 			</div>
 
 

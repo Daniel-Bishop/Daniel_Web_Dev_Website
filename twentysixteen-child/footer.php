@@ -19,30 +19,43 @@
 			<div class= "social-links">
 				<div id="footer-col-1" class="footer-col">
 					<p>
-						<img src="<?php echo get_stylesheet_directory_uri();?>/images/facebook-logo-button.svg" alt="facebook logo" />
-						Facebook
+						<a href="">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/images/facebook-logo-button.svg" alt="facebook logo" />
+							Facebook
+						</a>
 					</p>
 
 					<p>
-						<img src="<?php echo get_stylesheet_directory_uri();?>/images/google-plus-logo-button.svg" alt="facebook logo" />
-						Google Plus
+						<a href="">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/images/google-plus-logo-button.svg" alt="facebook logo" />
+							Google Plus
+						</a>
 					</p>
 					<p>
-						<img src="<?php echo get_stylesheet_directory_uri();?>/images/twitter-logo.svg" alt="facebook logo" />Twitter
+						<a href="">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/images/twitter-logo.svg" alt="facebook logo" />
+							Twitter
+						</a>
 					</p>
 				</div>
 				<div id="footer-col-2" class="footer-col">
 					<p>
-						<img src="<?php echo get_stylesheet_directory_uri();?>/images/linked-in-logo-key.svg" alt="facebook logo" />
-						Linked In
+						<a href="">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/images/linked-in-logo-key.svg" alt="facebook logo" />
+							Linked In
+						</a>
 					</p>
 					<p>
-						<img src="<?php echo get_stylesheet_directory_uri();?>/images/pinterest-social-logo.svg" alt="facebook logo" />
-						Pinterest
+						<a href="">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/images/pinterest-social-logo.svg" alt="facebook logo" />
+							Pinterest
+						</a>
 					</p>
 					<p>
-						<img src="<?php echo get_stylesheet_directory_uri();?>/images/instagram-logo.svg" alt="facebook logo" />
-						Instagram
+						<a href="">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/images/instagram-logo.svg" alt="facebook logo" />
+							Instagram
+						</a>
 					</p>
 
 				</div>

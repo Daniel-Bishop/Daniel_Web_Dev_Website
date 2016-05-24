@@ -14,9 +14,9 @@ jQuery(document).ready(function(){
 
 			if (window.matchMedia('(min-width:910px)').matches) {
 		
-    			console.log(jQuery(window).scrollTop() );
+    			
 		
-				if(jQuery(window).scrollTop()>=500){
+				 if(jQuery(window).scrollTop()>=500){
 		
 					jQuery(".main-about-container p:first").fadeTo("slow",1.0);
 
@@ -33,10 +33,16 @@ jQuery(document).ready(function(){
 					jQuery(".Imac-and-yellow p").hide("fast").show("slow");
 				}
 
+				
+
 			}//End screen size check
 
 		});
 
+
 	}//end flag check
 
+	
+				
+				
 });//end doc ready
