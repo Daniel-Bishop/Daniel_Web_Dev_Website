@@ -18,7 +18,7 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 		<div class="about-inner-main">
 			<h1 class="page-title-custom">Some Work</h1>
-			<?php echo do_shortcode("[huge_it_portfolio id='2']"); ?>
+			<div id="thumbnail-container"><?php echo do_shortcode("[edsbportman layout_type='single_cat' id='1' featured='n' mosaic_style='one' tile_margin='20' sct='n' scd='n' sci='n' order_by='id' ordering='asc' ]"); ?></div>
 			
 			<div class="current-project">
 				<h2>Current Project</h2>

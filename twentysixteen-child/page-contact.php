@@ -18,7 +18,7 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 		<div class="about-inner-main">
 			<h1 class="page-title-custom">Lets Chat</h1>
-			<?php echo do_shortcode('[contact-form-7 id="32" title="Lets Have A Friendly Chat"]');?>
+			<?php echo do_shortcode('[contact-form-7 id="47" title="Contact form 1"]');?>
 	
 		</div>
 	</main><!-- .site-main -->

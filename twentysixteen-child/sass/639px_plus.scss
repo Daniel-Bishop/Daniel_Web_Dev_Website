@@ -1,5 +1,18 @@
-@media screen and (min-width: 481px){
+@media screen and (min-width: 639px){
+/*Menu plugin*/
 
+
+#responsive-menu-button {
+  margin-top: 20px;
+  height:55px;
+}
+
+
+
+
+
+#page {
+  
 	/**About Page styles**/
 
 	.about-page-col1{
@@ -14,4 +27,12 @@
 	}
 
 
+}
+.site-footer{
+	.footer-logo{
+		img{
+			margin-top:-15px;
+		}
+	}
+}
 }

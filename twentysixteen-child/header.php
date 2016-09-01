@@ -17,8 +17,9 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 	<!--Typekit-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
 
 
@@ -33,12 +34,7 @@
 
 		<header id="masthead" class="site-header" role="banner">
 			<!-- Top Links Including Phone and Email-->
-			<div class="top-links">
-				<div class="inner-top">
-					<p>0409 092 450</p>
-					<p><?php echo bloginfo('admin_email'); ?></p>
-
-				</div>
+			
 			</div>
 			<div class="site-header-main">
 				<div class="site-branding">
@@ -64,7 +60,7 @@
 
 					<div id="site-header-menu" class="site-header-menu">
 						<?php if ( has_nav_menu( 'primary' ) ) : ?>
-						<?php echo do_shortcode( '[sgmb id=1]');?>
+						
 							<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
 								<?php
 									wp_nav_menu( array(
@@ -76,19 +72,7 @@
 							</nav><!-- .main-navigation -->
 						<?php endif; ?>
 
-						<?php if ( has_nav_menu( 'social' ) ) : ?>
-							<nav id="social-navigation" class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'twentysixteen' ); ?>">
-								<?php
-									wp_nav_menu( array(
-										'theme_location' => 'social',
-										'menu_class'     => 'social-links-menu',
-										'depth'          => 1,
-										'link_before'    => '<span class="screen-reader-text">',
-										'link_after'     => '</span>',
-									) );
-								?>
-							</nav><!-- .social-navigation -->
-						<?php endif; ?>
+						
 					</div><!-- .site-header-menu -->
 				<?php endif; ?>
 			</div><!-- .site-header-main -->

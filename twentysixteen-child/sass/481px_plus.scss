@@ -1,5 +1,19 @@
 @media screen and (min-width: 481px){
+/*Menu plugin*/
+#responsive-menu-container #responsive-menu li.responsive-menu-item a {
+  line-height: 500% !important;
+}
 
+#responsive-menu-button {
+  margin-top: 20px;
+  height:30px;
+  background-color:rgba(0,0,0,0.1);
+}
+
+html.responsive-menu-open #responsive-menu-container {
+  height: 80%;
+}
+/*end plugin styles*/
 	.inner-top p{
 		font-size:14px;
 	}
@@ -135,6 +149,12 @@
 		margin-top:5%;
 	}
 
+}
+.site-footer{
+
+a{
+	font-size:1.4vw;
+}
 }
 
 }/*End media query*/

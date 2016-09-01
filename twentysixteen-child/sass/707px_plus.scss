@@ -1,6 +1,26 @@
 @media screen and (min-width: 707px){
+/*Menu plugin*/
 
 
+#responsive-menu-button {
+  margin-top: 25px;
+
+}
+
+/*end plugin*/
+
+#menu-toggle {
+  display: none;
+}
+
+#page {
+  
+background-color: black;
+
+.site-content{
+	max-width:1966px;
+	margin:0 auto;
+}
 .Imac-and-yellow{
 	min-height:436px;
 }
@@ -21,5 +41,13 @@
 	width:61%;
 	display:inline-block;
 
+}
+}
+.site-footer{
+.footer-nav{
+	li{
+	line-height:1.75;
+	}
+}
 }
 }

@@ -42,7 +42,6 @@ jQuery(document).ready(function(){
 
 	}//end flag check
 
-	
-				
+			
 				
 });//end doc ready

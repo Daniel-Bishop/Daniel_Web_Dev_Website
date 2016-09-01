@@ -9,11 +9,24 @@
 	top:180px;
 }
 
-
+#services p{
+	font-size:1.4em;
+}
 /*Site Footer*/
 .site-footer{
+	.footer-container{
+		padding-top:5%;
+	}
+	.footer-logo{
 	
+	width:70%;
 	
+	text-align: right;
+	img{
+		
+		margin-top:-25px;
+
+	}
 }
 .site-footer h2{
 	font-size:54px;
@@ -33,5 +46,5 @@
 		max-width:50px;
 	}
 }
-
+}
 }/*end media query*/
