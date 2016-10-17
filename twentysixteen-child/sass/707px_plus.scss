@@ -1,4 +1,11 @@
 @media screen and (min-width: 707px){
+
+#hero-image{
+	min-height: 300px;
+	p{
+		font-size:2.5rem;
+	}
+}
 /*Menu plugin*/
 
 
@@ -15,7 +22,7 @@
 
 #page {
   
-background-color: black;
+
 
 .site-content{
 	max-width:1966px;
@@ -31,7 +38,9 @@ background-color: black;
 
 
 /**About Page styles**/
-
+.site-header-main{
+	background-color:rgba(0,0,0,0.8);
+}
 .about-page-col1{
 	width:35%;
 	display:inline-block;
@@ -44,6 +53,14 @@ background-color: black;
 }
 }
 .site-footer{
+	background-color: transparent;
+	.footer-container{
+		background-color: transparent;
+	}
+	a{
+		font-size:2.5rem;
+	}
+
 .footer-nav{
 	li{
 	line-height:1.75;

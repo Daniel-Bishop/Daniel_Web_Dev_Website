@@ -12,6 +12,11 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
+	<!--structured data new-->
+<?php include('json-ld.php'); ?><script type="application/ld+json">// <![CDATA[
+<?php echo json_encode($payload); ?>
+// ]]></script>
+<!--end structure data new-->
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">

@@ -32,7 +32,10 @@ get_header(); ?>
 
 	<main id="main" class="site-main" role="main">
 
-		<div id="hero-image"><img src="<?php echo get_stylesheet_directory_uri();?>/images/office-581131.jpg" alt="office picture"/></div>
+		<div id="hero-image">
+			<!--<img src="<?php echo get_stylesheet_directory_uri();?>/images/office-581131.jpg" alt="office picture"/>-->
+			<p>I build beautiful websites for Hobart businesses using the latest web development and design technologies</p>
+		</div>
 
 		<div id="services" class="container">
 

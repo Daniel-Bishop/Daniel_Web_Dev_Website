@@ -12,7 +12,8 @@
  Text Domain:  twenty-sixteen-child
 */
 body {
-  background-color: #ffffff;
+  background-image: url("./images/greybg-opt.jpg");
+  background-size: cover;
 }
 
 /*Menu plugin*/
@@ -31,8 +32,27 @@ html.responsive-menu-open #responsive-menu-container {
 }
 
 #hero-image {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-height: 800px;
   overflow: hidden;
+  background-image: url("./images/office-581131.jpg");
+  background-size: cover;
+  min-height: 200px;
+}
+
+#hero-image p {
+  width: 70%;
+  color: white;
+  font-family: Georgia;
+  font-size: 2.8vw;
 }
 
 #menu-toggle {
@@ -40,6 +60,7 @@ html.responsive-menu-open #responsive-menu-container {
 }
 
 #page {
+  background-color: transparent;
   margin-top: 0px;
 }
 
@@ -64,7 +85,9 @@ html.responsive-menu-open #responsive-menu-container {
 .site-header-main {
   width: 100%;
   padding: 2% 5% 2% 5%;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 1966px;
+  margin: 0 auto;
 }
 
 .custom-logo {
@@ -78,7 +101,6 @@ html.responsive-menu-open #responsive-menu-container {
   width: 0px;
   height: 0px;
   visibility: hidden;
-  background-color: #000000;
 }
 
 .home-header h1 {
@@ -326,8 +348,12 @@ html.responsive-menu-open #responsive-menu-container {
 .site-footer {
   padding-bottom: 0px;
   height: auto;
-  background-color: #000000;
+  max-height: 300px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
   color: #f8f9f9;
+  max-width: 1966px;
+  margin: 0 auto;
 }
 
 .site-footer a {
@@ -367,7 +393,7 @@ html.responsive-menu-open #responsive-menu-container {
 
 .site-footer .footer-logo img {
   width: 15vw;
-  max-width: 454px;
+  max-width: 254px;
 }
 
 @media screen and (min-width: 481px) {
@@ -511,6 +537,12 @@ html.responsive-menu-open #responsive-menu-container {
 }
 
 @media screen and (min-width: 707px) {
+  #hero-image {
+    min-height: 300px;
+  }
+  #hero-image p {
+    font-size: 2.5rem;
+  }
   /*Menu plugin*/
   #responsive-menu-button {
     margin-top: 25px;
@@ -520,7 +552,6 @@ html.responsive-menu-open #responsive-menu-container {
     display: none;
   }
   #page {
-    background-color: black;
     /**About Page styles**/
   }
   #page .site-content {
@@ -533,6 +564,9 @@ html.responsive-menu-open #responsive-menu-container {
   #page .Imac-and-yellow p {
     top: 140px;
   }
+  #page .site-header-main {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
   #page .about-page-col1 {
     width: 35%;
     display: inline-block;
@@ -541,12 +575,27 @@ html.responsive-menu-open #responsive-menu-container {
     width: 61%;
     display: inline-block;
   }
+  .site-footer {
+    background-color: transparent;
+  }
+  .site-footer .footer-container {
+    background-color: transparent;
+  }
+  .site-footer a {
+    font-size: 2.5rem;
+  }
   .site-footer .footer-nav li {
     line-height: 1.75;
   }
 }
 
 @media screen and (min-width: 910px) {
+  #hero-image {
+    min-height: 500px;
+  }
+  #hero-image p {
+    font-size: 3.5rem;
+  }
   .home-header {
     position: relative;
     top: 20px;
@@ -586,16 +635,13 @@ html.responsive-menu-open #responsive-menu-container {
 }
 
 @media screen and (min-width: 992px) {
-  .Imac-and-yellow p {
-    font-size: 36px;
-    top: 180px;
-  }
   #services p {
     font-size: 1.4em;
   }
   /*Site Footer*/
   .site-footer .footer-container {
     padding-top: 5%;
+    padding-bottom: 2%;
   }
   .site-footer .footer-logo {
     width: 70%;
@@ -620,6 +666,12 @@ html.responsive-menu-open #responsive-menu-container {
 
 /*end media query*/
 @media screen and (min-width: 1120px) {
+  #hero-image {
+    min-height: 600px;
+  }
+  #hero-image p {
+    font-size: 4.5rem;
+  }
   .Imac-and-yellow p {
     top: 230px;
   }

@@ -1,5 +1,10 @@
 @media screen and (min-width: 910px){
-
+#hero-image{
+	min-height: 500px;
+	p{
+		font-size:3.5rem
+	}
+}
 .home-header{
 	position: relative;
 	top:20px;
