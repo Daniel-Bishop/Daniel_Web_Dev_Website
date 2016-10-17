@@ -44,8 +44,22 @@ html.responsive-menu-open #responsive-menu-container{
 		color:white;
 		font-family:Georgia;
 		font-size:2.8vw;
+
+
 	}
+
+
 }
+
+/**Microsoft ie10 & 11**/
+		@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     	/* IE10+ CSS styles go here */
+
+     	#hero-image p{
+     		margin-top:10%;
+     	}
+
+		}
 
 #menu-toggle{
 	display:none;
@@ -147,6 +161,8 @@ html.responsive-menu-open #responsive-menu-container{
 	padding:0px;
 }
 /**Home Page styles**/
+
+
 .home-headers{
 	text-align: center;
 	font-family:'open-sans';
@@ -230,6 +246,7 @@ html.responsive-menu-open #responsive-menu-container{
 	padding-top:5vw;
 	padding-left:6.5%;
 	font-size:4vw;
+	min-height: 1000px;
 	p{
 		font-family:open-sans;
 		font-weight:200;
@@ -350,14 +367,14 @@ html.responsive-menu-open #responsive-menu-container{
 	height:auto;
 	max-height:300px;
 	overflow:hidden;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.8);
 	color:#f8f9f9;
 	max-width:1966px;
 	margin:0 auto;
 	a{
 		color:#f8f9f9;
 		font-family:open-sans;
-		font-size:4vw;
+		font-size:1.5rem;
 		font-weight:100;
 		
 	}
@@ -365,7 +382,7 @@ html.responsive-menu-open #responsive-menu-container{
 		color:rgb(82,164,82);
 	}
 	.footer-container{
-		padding-top:10%;
+		/*padding-top:10%;*/
 		padding-left:10%;
 		width: 100%;
 	
@@ -391,7 +408,7 @@ html.responsive-menu-open #responsive-menu-container{
 	text-align: right;
 	img{
 		
-	width:15vw;
+	width:150px;
 	max-width:254px;
 		
 

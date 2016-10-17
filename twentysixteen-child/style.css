@@ -55,6 +55,14 @@ html.responsive-menu-open #responsive-menu-container {
   font-size: 2.8vw;
 }
 
+/**Microsoft ie10 & 11**/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  #hero-image p {
+    margin-top: 10%;
+  }
+}
+
 #menu-toggle {
   display: none;
 }
@@ -239,6 +247,7 @@ html.responsive-menu-open #responsive-menu-container {
   padding-top: 5vw;
   padding-left: 6.5%;
   font-size: 4vw;
+  min-height: 1000px;
 }
 
 .about-inner-main p {
@@ -350,7 +359,7 @@ html.responsive-menu-open #responsive-menu-container {
   height: auto;
   max-height: 300px;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   color: #f8f9f9;
   max-width: 1966px;
   margin: 0 auto;
@@ -359,7 +368,7 @@ html.responsive-menu-open #responsive-menu-container {
 .site-footer a {
   color: #f8f9f9;
   font-family: open-sans;
-  font-size: 4vw;
+  font-size: 1.5rem;
   font-weight: 100;
 }
 
@@ -368,7 +377,7 @@ html.responsive-menu-open #responsive-menu-container {
 }
 
 .site-footer .footer-container {
-  padding-top: 10%;
+  /*padding-top:10%;*/
   padding-left: 10%;
   width: 100%;
 }
@@ -392,7 +401,7 @@ html.responsive-menu-open #responsive-menu-container {
 }
 
 .site-footer .footer-logo img {
-  width: 15vw;
+  width: 150px;
   max-width: 254px;
 }
 
@@ -509,7 +518,7 @@ html.responsive-menu-open #responsive-menu-container {
     margin-top: 5%;
   }
   .site-footer a {
-    font-size: 1.4vw;
+    font-size: 1.5rem;
   }
 }
 
@@ -582,7 +591,7 @@ html.responsive-menu-open #responsive-menu-container {
     background-color: transparent;
   }
   .site-footer a {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
   .site-footer .footer-nav li {
     line-height: 1.75;
@@ -632,6 +641,9 @@ html.responsive-menu-open #responsive-menu-container {
     opacity: 1.0;
     font-size: 30px;
   }
+  .footer-container {
+    padding-top: 5%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -675,7 +687,8 @@ html.responsive-menu-open #responsive-menu-container {
   .Imac-and-yellow p {
     top: 230px;
   }
-  .footer-logo img {
-    margin-top: -45px;
+  .site-footer .footer-logo img {
+    width: 150px;
+    margin-top: 15px;
   }
 }
