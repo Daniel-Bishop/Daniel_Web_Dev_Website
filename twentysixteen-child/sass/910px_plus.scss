@@ -1,4 +1,25 @@
 @media screen and (min-width: 910px){
+/*******************POSTS ONLY************************/
+.posts-col1{
+	width:65%;
+	margin-left:5%;
+	padding-top:2%;
+	padding-bottom:2%;
+	h1{
+		
+		font-size:3rem;
+	}
+	p{
+
+	}
+}
+#search-2{
+	border-top-width:0px;
+}
+#secondary{
+	display:inline-block;
+}
+/*******************END POSTS STYLES*****************/
 #hero-image{
 	min-height: 500px;
 	p{

@@ -11,6 +11,45 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-sixteen-child
 */
+/*******************POSTS ONLY************************/
+.posts-col1{
+	padding-top:5%;
+	padding-bottom:5%;
+	h1{
+		font-family:'Merriweather';
+		font-size:2.1rem;
+		color:#42636e;
+
+	}
+	h2{
+		font-weight:700;
+		font-size:1.75rem;
+		color:#4B815D;
+	}
+	p:first-of-type{
+
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: georgia;
+
+	}
+	p,li{
+		font-family:'Source Sans Pro';
+		font-weight:400;
+		font-size:1.45rem;
+	}
+	li{
+		font-weight:bold;
+		font-size:1.6rem;
+	}
+
+}
+#secondary{
+	display:none;
+}
+
+
+
 body{
 	background-image:url('./images/greybg-opt.jpg');
 	background-size: cover;

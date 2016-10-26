@@ -12,6 +12,9 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
+	<!--fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
 	<!--structured data new-->
 <?php include('json-ld.php'); ?><script type="application/ld+json">// <![CDATA[
 <?php echo json_encode($payload); ?>
