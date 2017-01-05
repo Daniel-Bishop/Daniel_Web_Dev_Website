@@ -34,7 +34,7 @@ get_header(); ?>
 
 		<div id="hero-image">
 			<!--<img src="<?php echo get_stylesheet_directory_uri();?>/images/office-581131.jpg" alt="office picture"/>-->
-			<p>I build beautiful websites for Hobart businesses using the latest web development and design technologies</p>
+			<p>I build beautiful websites for Hobart businessesssssssss using the latest web development and design technologies</p>
 		</div>
 
 		<div id="services" class="container">
