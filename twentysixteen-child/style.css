@@ -61,7 +61,7 @@ body {
 }
 
 #responsive-menu-button {
-  margin-top: 0px;
+  margin-top: 5px;
   height: 30px;
   background-color: rgba(0, 0, 0, 0.1);
 }
@@ -70,6 +70,27 @@ html.responsive-menu-open #responsive-menu-container {
   height: 80%;
 }
 
+/*newDesignJan2017 branch*/
+#responsive-menu-container {
+  background-color: transparent;
+  margin-top: 18%;
+  background-image: url("./images/greybg-opt.jpg");
+}
+
+#responsive-menu-wrapper {
+  background-color: transparent;
+  height: 100%;
+}
+
+#responsive-menu {
+  height: 100%;
+}
+
+.responsive-menu-item-link {
+  background-color: transparent;
+}
+
+/*end new branch menu styles*/
 #hero-image {
   display: flex;
   align-items: center;
@@ -257,31 +278,13 @@ html.responsive-menu-open #responsive-menu-container {
   font-weight: 400;
 }
 
-.Imac-and-yellow {
-  min-height: 200px;
-  background-image: url("./images/mac.png");
-  background-size: 100% 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-height: 250px;
-}
-
-.Imac-and-yellow p {
-  color: #233439;
-  font-size: 12px;
-  font-size: 3vw;
-  width: 35%;
-  position: relative;
-  left: 60%;
-  top: 70px;
-}
-
 /**About Page styles**/
 .about-inner-main {
   padding-top: 5vw;
   padding-left: 6.5%;
   font-size: 4vw;
-  min-height: 1000px;
+  /*min-height: 1000px;*/
+  padding-bottom: 5%;
 }
 
 .about-inner-main p {
@@ -295,7 +298,21 @@ html.responsive-menu-open #responsive-menu-container {
   font-weight: 400;
 }
 
+.about-top-image {
+  height: 160px;
+  background-image: url("./images/phone-finger.jpg");
+  background-size: cover;
+  padding-top: 5%;
+}
+
+.about-top-image h1 {
+  font-family: open-sans;
+  color: #000000;
+  font-weight: 400;
+}
+
 .about-page-col1 {
+  padding-top: 5%;
   margin: 0;
   vertical-align: top;
   margin: 0px;
@@ -307,13 +324,6 @@ html.responsive-menu-open #responsive-menu-container {
   margin-bottom: 0px;
 }
 
-.about-page-col1 h1 {
-  font-family: open-sans;
-  color: #42636e;
-  font-weight: 400;
-  margin-bottom: 10%;
-}
-
 .about-page-col1 img {
   width: 200px;
   margin-bottom: 40px;
@@ -321,7 +331,7 @@ html.responsive-menu-open #responsive-menu-container {
 
 .about-page-col2 {
   margin: 0;
-  padding-top: 16%;
+  padding-top: 5%;
 }
 
 .about-page-col2 h2 {
@@ -421,6 +431,7 @@ html.responsive-menu-open #responsive-menu-container {
 }
 
 .site-footer .footer-nav {
+  display: none;
   width: 20%;
 }
 
@@ -430,12 +441,12 @@ html.responsive-menu-open #responsive-menu-container {
 
 .site-footer .footer-logo {
   vertical-align: top;
-  width: 70%;
-  text-align: right;
+  width: 100%;
+  text-align: center;
 }
 
 .site-footer .footer-logo img {
-  width: 150px;
+  width: 50px;
   max-width: 254px;
 }
 
