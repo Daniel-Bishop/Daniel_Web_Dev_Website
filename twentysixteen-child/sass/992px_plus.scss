@@ -12,21 +12,26 @@
 
 /*End Posts*/
 
-
+#hero-image{
+	p{
+		width:970px;
+	}
+}
 #services p{
 	font-size:1.4em;
 }
 /*Site Footer*/
 .site-footer{
+	
 	.footer-container{
 		padding-top:5%;
 		padding-bottom:2%;
 	}
 	.footer-logo{
 	
-	width:70%;
+	width:100%;
 	
-	text-align: right;
+	text-align:center;
 	img{
 		
 		margin-top:-25px;

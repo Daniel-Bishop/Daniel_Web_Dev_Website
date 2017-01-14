@@ -228,7 +228,9 @@ html.responsive-menu-open #responsive-menu-container{
 }
 /**Home Page styles**/
 
-
+.home-headers:first-child{
+			margin-top:50px;
+		}
 .home-headers{
 	text-align: center;
 	font-family:'open-sans';
@@ -243,8 +245,8 @@ html.responsive-menu-open #responsive-menu-container{
 		width:50px;
 	}
 	.row{
-		margin-top:50px;
-
+		/**margin-top:50px;**/
+		
 
 	}
 	p{
@@ -423,7 +425,7 @@ html.responsive-menu-open #responsive-menu-container{
 .site-footer{
 	padding-bottom:0px;
 	height:auto;
-	max-height:300px;
+	max-height:200px;
 	overflow:hidden;
 	background-color: rgba(0,0,0,0.8);
 	color:#f8f9f9;
@@ -441,8 +443,9 @@ html.responsive-menu-open #responsive-menu-container{
 	}
 	.footer-container{
 		/*padding-top:10%;*/
-		padding-left:10%;
+		/*padding-left:10%;*/
 		width: 100%;
+		/*height:100px;*/
 	
 	}
 	
@@ -465,11 +468,14 @@ html.responsive-menu-open #responsive-menu-container{
 	
 	text-align:center;
 	img{
-		
+		margin-top:0px;
 	width:50px;
 	max-width:254px;
 		
 
+	}
+	p{
+		margin-bottom:0px;
 	}
 }
 	
